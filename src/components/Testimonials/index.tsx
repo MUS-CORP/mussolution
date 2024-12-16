@@ -2,13 +2,13 @@ import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
 
-const testimonialData: Testimonial[] = [
+const newLocal = [
   {
     id: 1,
     name: "Musharof Chy",
     designation: "Founder @TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Situs ini mengubah cara kami membangun komunitas. Cepat, intuitif, dan bebas gangguan!.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
@@ -17,7 +17,7 @@ const testimonialData: Testimonial[] = [
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Desainnya bersih dan profesional. Pengguna kami sangat terkesan!.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
@@ -26,19 +26,20 @@ const testimonialData: Testimonial[] = [
     name: "Lethium Frenci",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Website ini memberikan pengalaman luar biasa, membantu bisnis kami berkembang pesat!.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
 ];
+const testimonialData: Testimonial[] = newLocal;
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Apa Kata Mereka"
+          paragraph="Berikut adalah beberapa testimoni dari klien kami yang puas dengan layanan kami"
           center
         />
 

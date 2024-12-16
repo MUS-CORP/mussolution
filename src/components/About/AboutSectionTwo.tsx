@@ -11,13 +11,13 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="/images/about/about2Dark.svg"
                 alt="about image"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/about-image-2-dark.svg"
+                src="/images/about/about2Light.svg"
                 alt="about image"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
@@ -28,31 +28,37 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Kode Bebas Bug
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Kami memastikan setiap website dibangun dengan kode bersih dan
+                  bebas bug, sehingga performa situs Anda stabil, cepat, dan
+                  optimal. Kualitas kode kami menjamin pengalaman pengguna
+                  terbaik dan kemudahan dalam pengelolaan di masa depan.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Dukungan Prima
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Layanan pelanggan prioritas yang siap membantu Anda kapan
+                  saja. Tim support profesional kami selalu tersedia untuk
+                  memastikan bisnis Anda berjalan lancar tanpa hambatan.
+                  Keberhasilan Anda adalah prioritas kami!
                 </p>
               </div>
-              <div className="mb-1">
+              {/* <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Teknologi Terbaru
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Website modern dengan teknologi/FrameWork terbaru untuk
+                  performa super cepat dan SEO-friendly. Solusi ini ideal untuk
+                  meningkatkan visibilitas Anda di mesin pencari dan memberikan
+                  pengalaman pengguna yang tak tertandingi.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
